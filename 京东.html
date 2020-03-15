@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box{
+      width: 100%;
+      height: 50px;
+      background-color: #c91523;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .logo{
+      width: 90px;
+      height: 50px;
+      background-color: deepskyblue;
+    }
+    .earch{
+     flex: 1;
+      padding: 9px 0; 
+    }
+
+    .earch input{
+       width: 100%;
+      height: 30px;
+      border-radius: 90px;
+      outline: none;
+      text-indent: 20px;
+      border: none;
+    }
+
+    .login {
+      height: 50px;
+      width: 60px;
+     background-color: deeppink;
+    }
+
+    .fooder{
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      background-color: #c91523;
+      display: flex;
+    }
+    .fooder a{
+      list-style: none;
+      width: 20%;
+      display: flex;
+        font-size: 16px;
+      color: #fff;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid #fff;
+    }
+   .list{
+     width: 100%;
+     height: 1000px;
+     background-color: blue;
+   }
+
+  </style>
+</head>
+<body>
+ <div class="list">
+    <div class="box">
+      <div class="logo"></div>
+      <div class="earch">
+        <input type="text" placeholder="请请输入商品">
+      </div>
+      <div class="login"></div>
+    </div>
+    
+    <!-- 底部 -->
+    <div class="fooder">
+    
+      <a href="#">首页</a>
+    
+      <a href="#">列表页</a>
+    
+      <a href="#">详情页</a>
+    
+      <a href="#">购物车</a>
+    
+      <a href="#">个人中心</a>
+    
+    </div>
+ </div>
+</body>
+</html>
